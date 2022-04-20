@@ -50,3 +50,7 @@ $ dotnet publish -r win-x64 -c Release -o ./publish/
 
 
 Any questions, errors or solutions, create an Issue in the Issues tab.
+
+---
+
+⚠ ONLY USE FOR EDUCATIONAL PURPOSES ⚠
