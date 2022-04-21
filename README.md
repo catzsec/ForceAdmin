@@ -12,6 +12,12 @@ ForceAdmin is a c# payload builder, creating infinate UAC pop-ups until the user
 <img src="https://cdn.vox-cdn.com/thumbor/SiIyeqmKIJGcOJccz94pHgwmgvQ=/0x0:1400x1400/1200x800/filters:focal(588x588:812x812):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/68837730/poptart1redrainbowfix_1.0.gif" width="350px"></img>
 </div>
 
+---
+
+⚠ ONLY USE FOR EDUCATIONAL PURPOSES ⚠
+
+---
+
 ## ⚡️ Required
 
 For building on your own, the following NuGet packages are needed 
@@ -19,6 +25,8 @@ For building on your own, the following NuGet packages are needed
 * [`Fody`](https://www.nuget.org/packages/Fody/): "Extensible tool for weaving .net assemblies."
 * [`Costura.Fody`](https://www.nuget.org/packages/Costura.Fody/) "Fody add-in for embedding references as resources."
 * [`Microsoft.AspNet.WebApi.Client`](https://www.nuget.org/packages/Microsoft.AspNet.WebApi.Client/) "This package adds support for formatting and content negotiation to System.Net.Http. It includes support for JSON, XML, and form URL encoded data."
+
+
 ## Screenshots
 
 ![Screenshot](https://github.com/catzsec/ForceAdmin/blob/main/Screenshots/Screenshot_1.png?raw=true)
@@ -51,6 +59,3 @@ $ dotnet publish -r win-x64 -c Release -o ./publish/
 
 Any questions, errors or solutions, create an Issue in the Issues tab.
 
----
-
-⚠ ONLY USE FOR EDUCATIONAL PURPOSES ⚠
