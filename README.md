@@ -34,7 +34,7 @@ For building on your own, the following NuGet packages are needed
 
 ## ⚡️ Installation
 
-You can download the latest tarball by clicking [here](https://github.com/ygorsimoes/Heimdall/tarball/master) or latest zipball by clicking [here](https://github.com/ygorsimoes/Heimdall/zipball/master).
+You can download the latest tarball by clicking [here](https://github.com/CatzSec/ForceAdmin/tarball/master) or latest zipball by clicking [here](https://github.com/catzsec/ForceAdmin/zipball/master).
 
 Download the project:
 ```zsh
