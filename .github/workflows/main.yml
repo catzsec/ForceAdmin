@@ -1,2 +1,0 @@
-- name: Release Drafter
-  uses: release-drafter/release-drafter@v5.19.0
