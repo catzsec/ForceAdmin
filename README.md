@@ -5,7 +5,8 @@
 ![Issues](https://img.shields.io/github/issues/CatzSec/ForceAdmin.svg?color=green)
 ![Last Commit](https://img.shields.io/github/last-commit/CatzSec/ForceAdmin?color=blue)
 
-ForceAdmin is a c# payload builder, creating infinate UAC pop-ups until the user allows the program to be ran. The inputted commands are ran via powershell calling cmd.exe and should be using the batch syntax.
+ForceAdmin is a c# payload builder, creating infinate UAC pop-ups until the user allows the program to be ran. The inputted commands are ran via powershell calling cmd.exe and should be using the batch syntax. Why use? Well some users have UAC set to always show, so UAC bypass techniques are not possible. However - this attack will force them to run as admin. Bypassing these settings
+
 
 
 <div align="center">
