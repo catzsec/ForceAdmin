@@ -8,16 +8,14 @@
 ForceAdmin is a c# payload builder, creating infinate UAC pop-ups until the user allows the program to be ran. The inputted commands are ran via powershell calling cmd.exe and should be using the batch syntax. Why use? Well some users have UAC set to always show, so UAC bypass techniques are not possible. However - this attack will force them to run as admin. Bypassing these settings
 
 
+---
+Has someone posted me on facebook? I keep on getting refers from there - could someone let me know if they have came from a post?
+
+---
 
 <div align="center">
 <img src="https://cdn.vox-cdn.com/thumbor/SiIyeqmKIJGcOJccz94pHgwmgvQ=/0x0:1400x1400/1200x800/filters:focal(588x588:812x812):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/68837730/poptart1redrainbowfix_1.0.gif" width="350px"></img>
 </div>
-
----
-
-⚠ ONLY USE FOR EDUCATIONAL PURPOSES ⚠
-
----
 
 ## ⚡️ Required
 
@@ -56,6 +54,12 @@ Compile ForceAdmin:
 ```zsh
 $ dotnet publish -r win-x64 -c Release -o ./publish/
 ```
+
+---
+
+⚠ ONLY USE FOR EDUCATIONAL PURPOSES ⚠
+
+---
 
 
 Any questions, errors or solutions, create an Issue in the Issues tab.
