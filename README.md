@@ -7,15 +7,15 @@
 
 ForceAdmin is a c# payload builder, creating infinate UAC pop-ups until the user allows the program to be ran. The inputted commands are ran via powershell calling cmd.exe and should be using the batch syntax. Why use? Well some users have UAC set to always show, so UAC bypass techniques are not possible. However - this attack will force them to run as admin. Bypassing these settings
 
-
----
-Has someone posted me on facebook? I keep on getting refers from there - could someone let me know if they have came from a post?
-
----
-
 <div align="center">
 <img src="https://cdn.vox-cdn.com/thumbor/SiIyeqmKIJGcOJccz94pHgwmgvQ=/0x0:1400x1400/1200x800/filters:focal(588x588:812x812):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/68837730/poptart1redrainbowfix_1.0.gif" width="350px"></img>
 </div>
+
+
+## Screenshots
+
+![Screenshot](https://github.com/catzsec/ForceAdmin/blob/main/Screenshots/Screenshot_1.png?raw=true)
+![Demo](https://github.com/catzsec/ForceAdmin/blob/main/Screenshots/Demo.gif?raw=true)
 
 ## ⚡️ Required
 
@@ -25,11 +25,6 @@ For building on your own, the following NuGet packages are needed
 * [`Costura.Fody`](https://www.nuget.org/packages/Costura.Fody/) "Fody add-in for embedding references as resources."
 * [`Microsoft.AspNet.WebApi.Client`](https://www.nuget.org/packages/Microsoft.AspNet.WebApi.Client/) "This package adds support for formatting and content negotiation to System.Net.Http. It includes support for JSON, XML, and form URL encoded data."
 
-
-## Screenshots
-
-![Screenshot](https://github.com/catzsec/ForceAdmin/blob/main/Screenshots/Screenshot_1.png?raw=true)
-![Demo](https://github.com/catzsec/ForceAdmin/blob/main/Screenshots/Demo.gif?raw=true)
 
 ## ⚡️ Installation
 
