@@ -8,6 +8,7 @@
 ForceAdmin is a c# payload builder, creating infinate UAC pop-ups until the user allows the program to be ran. The inputted commands are ran via powershell calling cmd.exe and should be using the batch syntax. Why use? Well some users have UAC set to always show, so UAC bypass techniques are not possible. However - this attack will force them to run as admin. Bypassing these settings
 
 <h1 align="center">A ⭐ would be greatly apperciated and would help develpoment of other exploits </h1>
+<h1 align="center"><a href="https://github.com/catzsec/ForceAdmin/releases/download/v1.2.0/ForceAdmin.exe" target="_blank">Download!</a></h1>
 
 <div align="center">
 <img src="https://cdn.vox-cdn.com/thumbor/SiIyeqmKIJGcOJccz94pHgwmgvQ=/0x0:1400x1400/1200x800/filters:focal(588x588:812x812):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/68837730/poptart1redrainbowfix_1.0.gif" height="350px"></img>
