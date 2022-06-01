@@ -1,4 +1,5 @@
 using static System.Console;
+using System.Windows.Forms;
 
 namespace Logger
 {
@@ -26,6 +27,22 @@ namespace Logger
             Write("] ");
             Write($"{message} > ");
             Console.ResetColor();
+
+            string input = ReadLine();
+            return input;
+        }
+
+        public static string CustomAsk(string message,  string defaulttext)
+        {
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Write("[");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Write("?");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Write("] ");
+            Write($"{message} > ");
+            Console.ResetColor();
+            SendKeys.SendWait(defaulttext);
 
             string input = ReadLine();
             return input;

